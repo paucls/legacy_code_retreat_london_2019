@@ -22,14 +22,14 @@ public class GoldenMasterTest {
     }
 
     @Test
-    public void a_winner_game() throws IOException {
+    public void a_few_winner_games() throws IOException {
         // Arrange
         PrintStream fileStream = new PrintStream("output.txt");
         System.setOut(fileStream);
 
         // Act
         for (int i = 0; i < 100; i++) {
-            gameRunner.main(new String[]{}, i);
+            gameRunner.main(new String[]{Integer.toString(i)});
         }
 
         // Assert
