@@ -1,85 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="/c/transf-packaging" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../GildedRose_Refactoring_Kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../GildedRose_Refactoring_Kata/Java" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/cost-center-management" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/gstc-widget-data" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/message_contracts/task_api_consumer" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/message_contracts/task_api_provider" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/prom-entity" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/prom-kaa" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/switch-reporting" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/test-spring-boot-app" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-application-authorization" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-email" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-feedback" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-file-manager" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-file-store-client" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-gateway" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-gradle-plugin" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-import-monitor" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-notification-management" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-release-toggling" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-security" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-solutions" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-upload" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-user-management" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/titan-workspaces" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/transf-audit" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/transf-entity" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/transf-packaging" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../back-end/transf-readiness" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../gdcr18/session4-kotlin" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../Bank_Kata/Kotlin" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../DDD/axon-examples" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../DDD/cleanarch" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../MarsRover_Kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../MarsRover_Kata_2702" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../MarsRover_Kata_dell-emc-20180516" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../court-booking-ddd" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../ddd-types-kotlin-wip" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../gdcr/gol-java-20181027" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../java-combat-kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../java-gradle-kata-seed" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180224-mars-rover-kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180423-kotlin-combat-kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180515-java-mars-rover-kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180520-java-gilded_rose" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180723-kotlin-bank" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180918-photos-kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../katas/20180920-kotlin-lift-kata" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../message-queues-pact-contracts/ordertaking" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../photo-files" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../task_list_api-kotlin-pact" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../tdd-workshop-demos/demos/videostore-refactoring" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../training/intro-to-softconst-lecture-starters/LibrarySystemQuiz1" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../training/pipelines-workshop-201805/paulo-pipeline" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../training/videostore" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../trash/pact-jvm/pact-jvm-consumer-junit" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../trash/pact-jvm/pact-jvm-provider-junit" value="PREVIEW" />
-      </map>
+  <component name="ChangeListManager">
+    <list default="true" id="23018851-5bde-4962-ab2c-6d534091d135" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#4807#4808#0" expanded="true" />
+                <element signature="e#4850#4851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>if (places[currentPlayer] &gt; 11) places[currentPlayer] = places[currentPlayer] - 12;</find>
+      <find>isGettingOutOfPenaltyBox</find>
+      <find>12</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="27" />
     <option name="width" value="1692" />
     <option name="height" value="1166" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="uglytrivia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553333640532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553338345260" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GoldenMasterTest.a_winner_game">
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -108,6 +224,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adaptionsoft.games.trivia.runner.GameRunner" />
+      <module name="uglytrivia" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adaptionsoft.games.trivia.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -118,6 +248,23 @@
       <module name="uglytrivia" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoldenMasterTest.a_winner_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uglytrivia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adaptionsoft.games.trivia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adaptionsoft.games.trivia" />
+      <option name="MAIN_CLASS_NAME" value="com.adaptionsoft.games.trivia.GoldenMasterTest" />
+      <option name="METHOD_NAME" value="a_winner_game" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,9 +350,169 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoldenMasterTest.a_winner_game" />
+        <item itemvalue="Application.GameRunner" />
         <item itemvalue="JUnit.All in uglytrivia" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23018851-5bde-4962-ab2c-6d534091d135" name="Default Changelist" comment="" />
+      <created>1553333591285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553333591285</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 09h 34m 04s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 10h 43m 09s.xml">
+      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 10h 43m 48s.xml">
+      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 10h 46m 01s.xml">
+      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 10h 50m 44s.xml">
+      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 10h 51m 07s.xml">
+      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-30" width="1920" height="1110" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21086262" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.19841966" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32111" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Favorites" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32903865" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.60394263" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.41030723" />
+      <window_info anchor="bottom" id="TypeScript" order="15" weight="0.22355106" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21086262" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.19841966" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32111" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Favorites" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32903865" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.60394263" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.41030723" />
+      <window_info anchor="bottom" id="TypeScript" order="15" weight="0.22355106" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/LinkedList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/SomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#4807#4808#0" expanded="true" />
+            <element signature="e#4850#4851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
