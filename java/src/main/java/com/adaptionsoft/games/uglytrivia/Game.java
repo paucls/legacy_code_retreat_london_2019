@@ -35,7 +35,7 @@ public class Game {
 
 	public boolean add(String playerName) {
 	    players.add(new Player(playerName));
-	    places[howManyPlayers()] = 0;
+	    places[howManyPlayers()] = 0;//
 	    inPenaltyBox[howManyPlayers()] = false;
 	    
 	    System.out.println(playerName + " was added");
@@ -56,12 +56,11 @@ public class Game {
 				isGettingOutOfPenaltyBox = true;
 				
 				System.out.println(currentPlayer().name() + " is getting out of the penalty box");
-				places[currentPlayer] = places[currentPlayer] + roll;
-				if (places[currentPlayer] > 11) places[currentPlayer] = places[currentPlayer] - 12;
-				
+				currentPlayer().move(roll);
+
 				System.out.println(currentPlayer().name()
 						+ "'s new location is " 
-						+ places[currentPlayer]);
+						+ currentPlayer().place());
 				System.out.println("The category is " + currentCategory());
 				askQuestion();
 			} else {
@@ -70,13 +69,11 @@ public class Game {
 				}
 			
 		} else {
-		
-			places[currentPlayer] = places[currentPlayer] + roll;
-			if (places[currentPlayer] > 11) places[currentPlayer] = places[currentPlayer] - 12;
+			currentPlayer().move(roll);
 			
 			System.out.println(currentPlayer().name()
 					+ "'s new location is " 
-					+ places[currentPlayer]);
+					+ currentPlayer().place());
 			System.out.println("The category is " + currentCategory());
 			askQuestion();
 		}
@@ -100,15 +97,15 @@ public class Game {
 	
 	
 	private String currentCategory() {
-		if (places[currentPlayer] == 0) return "Pop";
-		if (places[currentPlayer] == 4) return "Pop";
-		if (places[currentPlayer] == 8) return "Pop";
-		if (places[currentPlayer] == 1) return "Science";
-		if (places[currentPlayer] == 5) return "Science";
-		if (places[currentPlayer] == 9) return "Science";
-		if (places[currentPlayer] == 2) return "Sports";
-		if (places[currentPlayer] == 6) return "Sports";
-		if (places[currentPlayer] == 10) return "Sports";
+		if (currentPlayer().place() == 0) return "Pop";
+		if (currentPlayer().place() == 4) return "Pop";
+		if (currentPlayer().place() == 8) return "Pop";
+		if (currentPlayer().place() == 1) return "Science";
+		if (currentPlayer().place() == 5) return "Science";
+		if (currentPlayer().place() == 9) return "Science";
+		if (currentPlayer().place() == 2) return "Sports";
+		if (currentPlayer().place() == 6) return "Sports";
+		if (currentPlayer().place() == 10) return "Sports";
 		return "Rock";
 	}
 

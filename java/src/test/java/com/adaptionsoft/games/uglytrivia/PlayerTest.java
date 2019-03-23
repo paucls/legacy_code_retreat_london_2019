@@ -29,4 +29,24 @@ public class PlayerTest {
 
         assertThat(player.didPlayerWin(), is(true));
     }
+
+    @Test
+    public void should_move_as_may_spaces_as_roll() {
+        Player player = new Player("John");
+
+        player.move(2);
+
+        assertThat(player.place(), is(2));
+    }
+
+    @Test
+    public void should_wrap_when_moving_beyond_12() {
+        Player player = new Player("John");
+        player.move(2);
+
+        player.move(6);
+        player.move(6);
+
+        assertThat(player.place(), is(2));
+    }
 }
