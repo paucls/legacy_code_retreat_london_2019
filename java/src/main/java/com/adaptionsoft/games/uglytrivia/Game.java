@@ -118,11 +118,11 @@ public class Game {
 						+ players.get(currentPlayer).coins()
 						+ " Gold Coins.");
 				
-				boolean winner = didPlayerWin();
+				boolean stillPlaying = isStillPlaying();
 				currentPlayer++;
 				if (currentPlayer == players.size()) currentPlayer = 0;
 				
-				return winner;
+				return stillPlaying;
 			} else {
 				currentPlayer++;
 				if (currentPlayer == players.size()) currentPlayer = 0;
@@ -140,7 +140,7 @@ public class Game {
 					+ players.get(currentPlayer).coins()
 					+ " Gold Coins.");
 			
-			boolean winner = didPlayerWin();
+			boolean winner = isStillPlaying();
 			currentPlayer++;
 			if (currentPlayer == players.size()) currentPlayer = 0;
 			
@@ -158,8 +158,7 @@ public class Game {
 		return true;
 	}
 
-
-	private boolean didPlayerWin() {
+	private boolean isStillPlaying() {
 		return !(players.get(currentPlayer).didPlayerWin());
 	}
 }
