@@ -53,7 +53,7 @@ public class Game {
 		System.out.println("They have rolled a " + roll);
 
 		if (inPenaltyBox[currentPlayer]) {
-			if (roll % 2 != 0) {
+			if (isOddRoll(roll)) {
 				isGettingOutOfPenaltyBox = true;
 
 				System.out.println(players.get(currentPlayer) + " is getting out of the penalty box");
@@ -71,6 +71,10 @@ public class Game {
 
 	}
 
+	private boolean isOddRoll(int roll) {
+		return roll % 2 != 0;
+	}
+
 	private void movePlayer(int roll) {
 		places[currentPlayer] = places[currentPlayer] + roll;
 		if (places[currentPlayer] > 11) places[currentPlayer] = places[currentPlayer] - 12;
@@ -82,16 +86,15 @@ public class Game {
 	}
 
 	private void askQuestion() {
-		if (currentCategory() == "Pop")
+		if ("Pop".equals(currentCategory()))
 			System.out.println(popQuestions.removeFirst());
-		if (currentCategory() == "Science")
+		if ("Science".equals(currentCategory()))
 			System.out.println(scienceQuestions.removeFirst());
-		if (currentCategory() == "Sports")
+		if ("Sports".equals(currentCategory()))
 			System.out.println(sportsQuestions.removeFirst());
-		if (currentCategory() == "Rock")
+		if ("Rock".equals(currentCategory()))
 			System.out.println(rockQuestions.removeFirst());
 	}
-
 
 	private String currentCategory() {
 		if (places[currentPlayer] == 0) return "Pop";
