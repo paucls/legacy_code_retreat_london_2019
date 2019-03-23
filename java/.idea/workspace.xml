@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="23018851-5bde-4962-ab2c-6d534091d135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/uglytrivia/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/uglytrivia/PlayerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="1">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
               <folding>
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#909#910#0" expanded="true" />
@@ -37,21 +39,21 @@
                 <element signature="e#979#980#0" expanded="true" />
                 <element signature="e#1350#1351#0" expanded="true" />
                 <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#2562#2563#0" expanded="true" />
-                <element signature="e#2602#2603#0" expanded="true" />
-                <element signature="e#4865#4866#0" expanded="true" />
-                <element signature="e#4919#4920#0" expanded="true" />
+                <element signature="e#2202#2203#0" expanded="true" />
+                <element signature="e#2277#2278#0" expanded="true" />
+                <element signature="e#4551#4552#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="311">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
@@ -62,6 +64,8 @@
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/uglytrivia/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="627">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,14 +96,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>if (places[currentPlayer] &gt; 11) places[currentPlayer] = places[currentPlayer] - 12;</find>
-      <find>isGettingOutOfPenaltyBox</find>
       <find>12</find>
       <find>add</find>
       <find>players</find>
       <find>purses</find>
       <find>places</find>
       <find>places[currentPlayer]</find>
+      <find>goToPenaltyBox</find>
       <find>inPenaltyBox</find>
+      <find>move</find>
+      <find>isGettingOutOfPenaltyBox</find>
     </findStrings>
     <replaceStrings>
       <replace>currentPlayer().place()</replace>
@@ -115,9 +121,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/uglytrivia/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" />
       </list>
     </option>
   </component>
@@ -263,7 +269,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553357868163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553360429259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -508,34 +514,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest - 2019.03.23 at 15h 46m 37s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.03.23 at 15h 47m 09s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.03.23 at 15h 47m 40s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.03.23 at 15h 47m 47s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.03.23 at 15h 48m 02s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.03.23 at 15h 48m 18s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_uglytrivia - 2019.03.23 at 15h 48m 39s.xml">
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 53m 55s.xml">
       <configuration name="All in uglytrivia" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_uglytrivia - 2019.03.23 at 15h 48m 59s.xml">
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 54m 00s.xml">
       <configuration name="All in uglytrivia" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_uglytrivia - 2019.03.23 at 15h 49m 14s.xml">
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 54m 11s.xml">
       <configuration name="All in uglytrivia" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_uglytrivia - 2019.03.23 at 15h 51m 12s.xml">
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 54m 18s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 54m 38s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 55m 03s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 55m 31s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 55m 52s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 56m 54s.xml">
+      <configuration name="All in uglytrivia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_uglytrivia - 2019.03.23 at 16h 59m 23s.xml">
       <configuration name="All in uglytrivia" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -554,7 +560,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.19821605" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.28939545" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.19821605" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -589,7 +595,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.19821605" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.28939545" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.19821605" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -677,10 +683,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/SomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#2202#2203#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#4551#4552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/uglytrivia/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="627">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -689,9 +727,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="311">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
@@ -702,32 +741,8 @@
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/SomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#2562#2563#0" expanded="true" />
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#4865#4866#0" expanded="true" />
-            <element signature="e#4919#4920#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
           </folding>
         </state>
       </provider>

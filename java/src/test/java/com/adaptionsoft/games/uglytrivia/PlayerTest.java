@@ -52,4 +52,15 @@ public class PlayerTest {
 
         assertThat(player.inPenaltyBox(), is(true));
     }
+
+    @Test
+    public void should_lose_all_coins_when_rolling_2_times_on_a_row_a_6() {
+        player.addOneCoin();
+        player.move(4);
+
+        player.move(6);
+        player.move(6);
+
+        assertThat(player.coins(), is(0));
+    }
 }
