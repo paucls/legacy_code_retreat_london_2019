@@ -5,11 +5,13 @@ public class Player {
     private final String name;
     private int coins;
     private int place;
+    private boolean inPenaltyBox;
 
     public Player(String name) {
         this.name = name;
         this.coins = 0;
         this.place = 0;
+        this.inPenaltyBox = false;
     }
 
     public String name() {
@@ -35,5 +37,13 @@ public class Player {
     public void move(int roll) {
         place += roll;
         if (place >= NUM_PLACES) place -= NUM_PLACES;
+    }
+
+    public void goToPenaltyBox() {
+        this.inPenaltyBox = true;
+    }
+
+    public boolean inPenaltyBox() {
+        return this.inPenaltyBox;
     }
 }

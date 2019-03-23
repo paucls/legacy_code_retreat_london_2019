@@ -49,4 +49,13 @@ public class PlayerTest {
 
         assertThat(player.place(), is(2));
     }
+
+    @Test
+    public void should_go_to_penalty_box() {
+        Player player = new Player("John");
+
+        player.goToPenaltyBox();
+
+        assertThat(player.inPenaltyBox(), is(true));
+    }
 }
