@@ -9,14 +9,14 @@ public class GameRunner {
 
 	private static boolean notAWinner;
 
-	public static void main(String[] args) {
+	public static void main(String[] args, int randomSeed) {
 		Game aGame = new Game();
 		
 		aGame.add("Chet");
 		aGame.add("Pat");
 		aGame.add("Sue");
 		
-		Random rand = new Random();
+		Random rand = new Random(randomSeed);
 	
 		do {
 			
