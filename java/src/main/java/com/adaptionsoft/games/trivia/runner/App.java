@@ -5,9 +5,7 @@ import com.adaptionsoft.games.uglytrivia.Game;
 import java.util.Random;
 
 
-public class GameRunner {
-
-    private static boolean notAWinner;
+public class App {
 
     public static void main(String[] args) {
         Random random = new Random();
@@ -24,6 +22,7 @@ public class GameRunner {
     }
 
     private static void runGame(Game game, Random ramdom) {
+        boolean notAWinner;
         do {
             game.roll(ramdom.nextInt(5) + 1);
 

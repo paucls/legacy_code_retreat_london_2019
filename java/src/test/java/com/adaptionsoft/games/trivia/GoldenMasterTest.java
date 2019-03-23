@@ -1,6 +1,6 @@
 package com.adaptionsoft.games.trivia;
 
-import com.adaptionsoft.games.trivia.runner.GameRunner;
+import com.adaptionsoft.games.trivia.runner.App;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,11 +14,11 @@ import static junit.framework.Assert.assertEquals;
 
 public class GoldenMasterTest {
 
-    private GameRunner gameRunner;
+    private App gameRunner;
 
     @Before
     public void setUp() {
-        gameRunner = new GameRunner();
+        gameRunner = new App();
     }
 
     @Test
