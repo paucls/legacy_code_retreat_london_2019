@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23018851-5bde-4962-ab2c-6d534091d135" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +15,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Random.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="60" column="27" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="27" />
-              <folding>
-                <element signature="e#1782#1783#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="406">
+              <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="565">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#909#910#0" expanded="true" />
@@ -46,50 +52,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="355">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expectedOutput.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12315" column="23" selection-start-line="12315" selection-start-column="23" selection-end-line="12315" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -106,6 +78,7 @@
       <find>if (places[currentPlayer] &gt; 11) places[currentPlayer] = places[currentPlayer] - 12;</find>
       <find>isGettingOutOfPenaltyBox</find>
       <find>12</find>
+      <find>movePlayer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,11 +87,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" />
         <option value="$PROJECT_DIR$/src/test/java/file.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java" />
       </list>
     </option>
   </component>
@@ -206,6 +180,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trivia" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uglytrivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553340701371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553344521804" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -225,6 +229,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.adaptionsoft.games.trivia.runner" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -270,8 +277,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.adaptionsoft.games.trivia.runner.GameRunner" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adaptionsoft.games.trivia.runner.App" />
       <module name="uglytrivia" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -433,34 +440,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 10m 52s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 25m 34s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 11m 33s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 26m 28s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 12m 21s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 27m 44s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 15m 10s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 27m 51s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 19m 36s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 28m 22s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 21m 25s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 30m 08s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 25m 24s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 31m 45s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 26m 11s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 32m 29s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest_a_winner_game - 2019.03.23 at 11h 26m 43s.xml">
-      <configuration name="GoldenMasterTest.a_winner_game" configurationId="JUnit" />
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 32m 40s.xml">
+      <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoldenMasterTest - 2019.03.23 at 11h 26m 47s.xml">
+    <history-entry file="GoldenMasterTest - 2019.03.23 at 12h 33m 07s.xml">
       <configuration name="GoldenMasterTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -468,7 +475,7 @@
     <frame x="0" y="-30" width="1920" height="1110" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21086262" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21086262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -479,7 +486,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.19841966" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.31714568" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.03666997" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -488,7 +495,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32903865" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.6035679" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.6590684" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.17244796" />
       <window_info anchor="bottom" id="TypeScript" order="15" weight="0.22355106" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -514,7 +521,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.19841966" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.31714568" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.03666997" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -523,7 +530,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32903865" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.6035679" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.6590684" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.17244796" />
       <window_info anchor="bottom" id="TypeScript" order="15" weight="0.22355106" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -559,17 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Random.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="60" column="27" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="27" />
-          <folding>
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -587,10 +583,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Random.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="27" />
+          <folding>
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/uglytrivia/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="565">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#871#872#0" expanded="true" />
             <element signature="e#909#910#0" expanded="true" />
@@ -599,25 +633,6 @@
             <element signature="e#4807#4808#0" expanded="true" />
             <element signature="e#4850#4851#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adaptionsoft/games/trivia/GoldenMasterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptionsoft/games/trivia/runner/GameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
