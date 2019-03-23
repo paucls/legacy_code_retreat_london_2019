@@ -1,7 +1,7 @@
 package com.adaptionsoft.games.trivia;
 
-import com.adaptionsoft.games.trivia.runner.App;
-import org.junit.Before;
+import com.adaptionsoft.games.trivia.runner.GameRunner;
+import com.adaptionsoft.games.uglytrivia.Game;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -9,17 +9,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
+import java.util.Random;
 
 import static junit.framework.Assert.assertEquals;
 
 public class GoldenMasterTest {
-
-    private App gameRunner;
-
-    @Before
-    public void setUp() {
-        gameRunner = new App();
-    }
 
     @Test
     public void a_few_winner_games() throws IOException {
@@ -29,7 +23,12 @@ public class GoldenMasterTest {
 
         // Act
         for (int i = 0; i < 100; i++) {
-            gameRunner.main(new String[]{Integer.toString(i)});
+            final GameRunner gameRunner = new GameRunner();
+            final Game aGame = new Game();
+            aGame.add("Chet");
+            aGame.add("Pat");
+            aGame.add("Sue");
+            gameRunner.runGame(aGame, new Random(i));
         }
 
         // Assert

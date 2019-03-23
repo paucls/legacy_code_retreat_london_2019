@@ -18,19 +18,6 @@ public class App {
         aGame.add("Pat");
         aGame.add("Sue");
 
-        runGame(aGame, random);
-    }
-
-    private static void runGame(Game game, Random ramdom) {
-        boolean notAWinner;
-        do {
-            game.roll(ramdom.nextInt(5) + 1);
-
-            if (ramdom.nextInt(9) == 7) {
-                notAWinner = game.wrongAnswer();
-            } else {
-                notAWinner = game.wasCorrectlyAnswered();
-            }
-        } while (notAWinner);
+        new GameRunner().runGame(aGame, random);
     }
 }
