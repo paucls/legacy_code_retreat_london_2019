@@ -123,13 +123,11 @@ public class Game {
 						+ " Gold Coins.");
 				
 				boolean winner = didPlayerNotWin();
-				currentPlayer++;
-				if (currentPlayer == players.size()) currentPlayer = 0;
-				
+				goToNextPlayer();
+
 				return winner;
 			} else {
-				currentPlayer++;
-				if (currentPlayer == players.size()) currentPlayer = 0;
+				goToNextPlayer();
 				return true;
 			}
 			
@@ -145,23 +143,25 @@ public class Game {
 					+ " Gold Coins.");
 			
 			boolean winner = didPlayerNotWin();
-			currentPlayer++;
-			if (currentPlayer == players.size()) currentPlayer = 0;
-			
+			goToNextPlayer();
+
 			return winner;
 		}
 	}
-	
+
+	private void goToNextPlayer() {
+		currentPlayer++;
+		if (currentPlayer == players.size()) currentPlayer = 0;
+	}
+
 	public boolean wrongAnswer(){
 		System.out.println("Question was incorrectly answered");
 		System.out.println(players.get(currentPlayer)+ " was sent to the penalty box");
 		inPenaltyBox[currentPlayer] = true;
-		
-		currentPlayer++;
-		if (currentPlayer == players.size()) currentPlayer = 0;
+
+		goToNextPlayer();
 		return true;
 	}
-
 
 	private boolean didPlayerNotWin() {
 		return !(purses[currentPlayer] == 6);
