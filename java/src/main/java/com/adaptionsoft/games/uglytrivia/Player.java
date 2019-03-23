@@ -20,4 +20,8 @@ public class Player {
     public void addOneCoin() {
         this.coins++;
     }
+
+    public boolean didPlayerWin() {
+        return coins == 6;
+    }
 }
