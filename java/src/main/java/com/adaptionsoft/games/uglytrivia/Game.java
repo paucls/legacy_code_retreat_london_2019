@@ -50,7 +50,7 @@ public class Game {
 		System.out.println("They have rolled a " + roll);
 		
 		if (inPenaltyBox[currentPlayer]) {
-			if (roll % 2 != 0) {
+			if (isOddRoll(roll)) {
 				isGettingOutOfPenaltyBox = true;
 				
 				System.out.println(currentPlayer().name() + " is getting out of the penalty box");
@@ -64,7 +64,7 @@ public class Game {
 			} else {
 				System.out.println(currentPlayer().name() + " is not getting out of the penalty box");
 				isGettingOutOfPenaltyBox = false;
-				}
+			}
 			
 		} else {
 			currentPlayer().move(roll);
@@ -76,6 +76,10 @@ public class Game {
 			askQuestion();
 		}
 		
+	}
+
+	private boolean isOddRoll(int roll) {
+		return roll % 2 != 0;
 	}
 
 	private Player currentPlayer() {
